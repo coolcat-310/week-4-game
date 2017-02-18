@@ -1,6 +1,13 @@
+.col-lg-6{
+    margin-bottom: 5%;
+}
 img{
     display: block;
     margin: 0 auto;
+}
+
+.alignment{
+    padding-left: 30%;
 }
 
 .center-text{
@@ -38,4 +45,23 @@ img{
     40%, 60% {
         transform: translate3d(4px, 0, 0);
     }
+}
+
+#loss-count{
+    color: red;
+    font-size: x-large;
+}
+
+#random_number{
+   font-size: x-large;
+    margin-bottom: 5%;
+}
+
+#score_number{
+    font-size: x-large;
+}
+
+#win_count{
+    color:green;
+    font-size: x-large;
 }
